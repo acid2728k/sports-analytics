@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════════
+  SPORTS ANALYTICS - ПРОСТОЙ СПОСОБ ЗАГРУЗИТЬ НА GITHUB
+═══════════════════════════════════════════════════════════════
+
+ШАГ 1: СОЗДАНИЕ РЕПОЗИТОРИЯ НА GITHUB
+───────────────────────────────────────────────────────────────
+
+1. Откройте страницу (должна открыться автоматически):
+   https://github.com/new
+
+2. Заполните:
+   Repository name: sports-analytics
+   Description: Sports Analytics v. 0.1
+   
+3. Выберите Public или Private (на ваше усмотрение)
+
+4. НЕ ставьте галочки на:
+   ❌ Add a README file
+   ❌ Add .gitignore
+   ❌ Choose a license
+
+5. Нажмите кнопку "Create repository"
+
+
+ШАГ 2: КОПИРОВАНИЕ КОМАНД
+───────────────────────────────────────────────────────────────
+
+После создания репозитория, скопируйте и выполните команды ниже.
+Замените YOUR_USERNAME на ваш GitHub username (видно в URL после github.com/)
+
+
+КОМАНДЫ ДЛЯ КОПИРОВАНИЯ:
+───────────────────────────────────────────────────────────────
+
+cd C:\Users\acid2\CURSOR-APPS\sports-analytics-app
+
+git remote add origin https://github.com/YOUR_USERNAME/sports-analytics.git
+
+git push -u origin main
+
+
+ПРИМЕР (если ваш username: johnsmith):
+───────────────────────────────────────────────────────────────
+
+cd C:\Users\acid2\CURSOR-APPS\sports-analytics-app
+git remote add origin https://github.com/johnsmith/sports-analytics.git
+git push -u origin main
+
+
+ЕСЛИ ПРОСЯТ ПАРОЛЬ:
+───────────────────────────────────────────────────────────────
+
+GitHub больше не принимает пароли. Нужен Personal Access Token:
+
+1. Идите на: https://github.com/settings/tokens/new
+2. Название: sports-analytics
+3. Выберите срок действия (например, 90 дней)
+4. Выберите scope: repo (полный доступ)
+5. Нажмите "Generate token"
+6. СКОПИРУЙТЕ токен (он показывается только один раз!)
+7. При push используйте токен вместо пароля
+
+═══════════════════════════════════════════════════════════════
+
