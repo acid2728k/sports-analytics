@@ -1,0 +1,51 @@
+═══════════════════════════════════════════════════════════════
+  SPORTS ANALYTICS - INSTRUCTIONS FOR GITHUB UPLOAD
+═══════════════════════════════════════════════════════════════
+
+✅ WHAT'S ALREADY DONE:
+───────────────────────────────────────────────────────────────
+✓ Git repository created
+✓ All files prepared
+✓ Commit created
+✓ GitHub page opened in browser
+
+
+🚀 WHAT YOU NEED TO DO (2 SIMPLE STEPS):
+───────────────────────────────────────────────────────────────
+
+STEP 1: CREATE REPOSITORY ON GITHUB
+───────────────────────────────────────────────────────────────
+
+On the opened GitHub page:
+
+1. Repository name: sports-analytics
+2. Description: Sports Analytics v. 0.1
+3. Choose Public or Private
+4. DO NOT check:
+   ❌ Add a README file
+   ❌ Add .gitignore  
+   ❌ Choose a license
+5. Click "Create repository" button
+
+
+STEP 2: RUN SCRIPT
+───────────────────────────────────────────────────────────────
+
+After creating the repository:
+
+1. Find in project folder: QUICK_PUSH.bat
+2. Double-click it (run)
+3. Enter your GitHub username (when asked)
+4. Done! Code will automatically upload to GitHub
+
+
+═══════════════════════════════════════════════════════════════
+
+IF SOMETHING DOESN'T WORK:
+───────────────────────────────────────────────────────────────
+
+Open EASY_PUSH.txt file for detailed instructions
+or run commands manually (see GITHUB_SETUP.md file)
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════════
+  SPORTS ANALYTICS - EASY WAY TO UPLOAD TO GITHUB
+═══════════════════════════════════════════════════════════════
+
+STEP 1: CREATE REPOSITORY ON GITHUB
+───────────────────────────────────────────────────────────────
+
+1. Open the page (should open automatically):
+   https://github.com/new
+
+2. Fill in:
+   Repository name: sports-analytics
+   Description: Sports Analytics v. 0.1
+   
+3. Choose Public or Private (your choice)
+
+4. DO NOT check:
+   ❌ Add a README file
+   ❌ Add .gitignore
+   ❌ Choose a license
+
+5. Click "Create repository"
+
+
+STEP 2: COPY COMMANDS
+───────────────────────────────────────────────────────────────
+
+After creating the repository, copy and run the commands below.
+Replace YOUR_USERNAME with your GitHub username (visible in URL after github.com/)
+
+
+COMMANDS TO COPY:
+───────────────────────────────────────────────────────────────
+
+cd C:\Users\acid2\CURSOR-APPS\sports-analytics-app
+
+git remote add origin https://github.com/YOUR_USERNAME/sports-analytics.git
+
+git push -u origin main
+
+
+EXAMPLE (if your username: johnsmith):
+───────────────────────────────────────────────────────────────
+
+cd C:\Users\acid2\CURSOR-APPS\sports-analytics-app
+git remote add origin https://github.com/johnsmith/sports-analytics.git
+git push -u origin main
+
+
+IF ASKED FOR PASSWORD:
+───────────────────────────────────────────────────────────────
+
+GitHub no longer accepts passwords. You need a Personal Access Token:
+
+1. Go to: https://github.com/settings/tokens/new
+2. Name: sports-analytics
+3. Select expiration (e.g., 90 days)
+4. Select scope: repo (full access)
+5. Click "Generate token"
+6. COPY the token (it's shown only once!)
+7. Use the token instead of password when pushing
+
+═══════════════════════════════════════════════════════════════
+
