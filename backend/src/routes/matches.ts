@@ -211,11 +211,11 @@ router.get('/:id/analysis', (req: Request, res: Response) => {
   if (mainMarket) {
     mainMarket.selections.forEach(selection => {
       let modelProb = 0;
-      if (selection.name === 'Home' || selection.name === 'П1') {
+      if (selection.name === 'Home') {
         modelProb = probabilities.mainOutcome.home;
-      } else if (selection.name === 'Draw' || selection.name === 'X') {
+      } else if (selection.name === 'Draw') {
         modelProb = probabilities.mainOutcome.draw || 0;
-      } else if (selection.name === 'Away' || selection.name === 'П2') {
+      } else if (selection.name === 'Away') {
         modelProb = probabilities.mainOutcome.away;
       }
       

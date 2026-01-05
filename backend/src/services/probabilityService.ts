@@ -18,46 +18,48 @@ const MODEL_VERSION = 'v1.0.0-beta';
 
 // Base strength ratings (would come from historical data in production)
 const teamStrengthRatings: Record<string, number> = {
-  // Football - Russia
-  't1': 1850, // Зенит
-  't2': 1780, // Спартак
-  't3': 1750, // ЦСКА
-  't4': 1720, // Локомотив
-  't5': 1700, // Краснодар
-  // Football - England
-  't6': 2050, // Man City
-  't7': 2000, // Arsenal
-  't8': 1980, // Liverpool
-  't9': 1900, // Chelsea
-  't10': 1850, // Tottenham
-  // Football - Spain
-  't11': 2100, // Real Madrid
-  't12': 2020, // Barcelona
-  't13': 1950, // Atletico
-  // Basketball
-  't14': 1900, // Lakers
-  't15': 1950, // Warriors
-  't16': 2000, // Celtics
-  't17': 1850, // Heat
-  't18': 1750, // CSKA Basketball
+  // Football - Premier League
+  't1': 2050, // Manchester City
+  't2': 2000, // Arsenal
+  't3': 1980, // Liverpool
+  't4': 1900, // Chelsea
+  't5': 1850, // Tottenham
+  // Football - La Liga
+  't6': 2100, // Real Madrid
+  't7': 2020, // Barcelona
+  't8': 1950, // Atletico Madrid
+  't9': 1850, // Sevilla
+  // Football - Serie A
+  't10': 1950, // AC Milan
+  't11': 1980, // Inter Milan
+  't12': 2000, // Juventus
+  // Football - Bundesliga
+  't13': 2100, // Bayern Munich
+  't14': 1950, // Borussia Dortmund
+  // Basketball - NBA
+  't15': 1900, // Los Angeles Lakers
+  't16': 1950, // Golden State Warriors
+  't17': 2000, // Boston Celtics
+  't18': 1850, // Miami Heat
+  't19': 1980, // Denver Nuggets
   // Tennis
-  't19': 2100, // Medvedev
-  't20': 2150, // Sinner
-  't21': 2120, // Alcaraz
-  't22': 2200, // Djokovic
+  't20': 2200, // Novak Djokovic
+  't21': 2120, // Carlos Alcaraz
+  't22': 2150, // Jannik Sinner
+  't23': 2100, // Daniil Medvedev
   // Boxing
-  't23': 1950, // Fury
-  't24': 2000, // Usyk
-  't25': 1980, // Canelo
+  't24': 1950, // Tyson Fury
+  't25': 2000, // Oleksandr Usyk
+  't26': 1980, // Canelo Alvarez
   // UFC
-  't26': 2100, // Makhachev
-  't27': 1950, // Pereira
-  't28': 2050, // Jon Jones
+  't27': 2050, // Jon Jones
+  't28': 1950, // Alex Pereira
+  't29': 2100, // Islam Makhachev
   // Esports
-  't29': 1900, // Team Spirit
-  't30': 1950, // NAVI
-  't31': 1880, // G2
-  't32': 1850, // FaZe
+  't30': 1900, // Team Spirit
+  't31': 1950, // Natus Vincere
+  't32': 1880, // G2 Esports
+  't33': 1850, // FaZe Clan
 };
 
 /**
